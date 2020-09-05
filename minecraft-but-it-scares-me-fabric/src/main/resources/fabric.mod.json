@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "minecraft-but-it-scares-me-fabric",
+  "id": "mbism",
   "version": "${version}",
 
-  "name": "minecraft But It Scares Me",
-  "description": "A mod part of Spiffey's 'Minecraft but it scares me' video.",
+  "name": "Minecraft but it scares me",
+  "description": "A mod part of Spifey's 'Minecraft but it scares me' video.",
   "authors": [
     "UltraGameCoder"
   ],
@@ -24,10 +24,6 @@
       "nl.mdgportfolio.minecraft.spiffey.minecraftbutitscaresme.Main"
     ]
   },
-
-          "mixins": [
-        "minecraft-but-it-scares-me-fabric.mixins.json"
-      ],
     
   "depends": {
     "fabricloader": ">=0.9.3+build.207",
