@@ -1,0 +1,3 @@
+rootProject.name = 'Minecraft-but-it-scares-me'
+
+include 'minecraft-but-it-scares-me-common', 'minecraft-but-it-scares-me-spigot', 'minecraft-but-it-scares-me-fabric'

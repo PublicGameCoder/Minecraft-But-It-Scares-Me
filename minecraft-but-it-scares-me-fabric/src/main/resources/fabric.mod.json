@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "minecraft-but-it-scares-me-fabric",
+  "version": "${version}",
+
+  "name": "minecraft But It Scares Me",
+  "description": "A mod part of Spiffey's 'Minecraft but it scares me' video.",
+  "authors": [
+    "UltraGameCoder"
+  ],
+  "contact": {
+    "website": "mdgportfolio.nl"
+  },
+
+  "license": "MIT",
+  "icon": "assets/minecraft-but-it-scares-me-fabric/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "nl.mdgportfolio.minecraft.spiffey.minecraftbutitscaresme.client.ClientMain"
+    ],
+    "main": [
+      "nl.mdgportfolio.minecraft.spiffey.minecraftbutitscaresme.Main"
+    ]
+  },
+
+          "mixins": [
+        "minecraft-but-it-scares-me-fabric.mixins.json"
+      ],
+    
+  "depends": {
+    "fabricloader": ">=0.9.3+build.207",
+              "fabric": "*",
+          "minecraft": "1.15.2"
+  }
+}
