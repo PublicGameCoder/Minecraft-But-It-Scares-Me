@@ -1,7 +1,0 @@
-name: Minecraft But It Scares Me
-version: @version@
-main: nl.mdgportfolio.minecraft.spiffey.minecraftbutitscaresme.Main
-api-version: 1.15
-authors: [UltraGameCoder]
-description: A plugin part of Spiffey's 'Minecraft but it scares me' video.
-website: mdgportfolio.nl
